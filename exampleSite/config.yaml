@@ -144,7 +144,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: fab fa-circle
+        - icon: fab fa-firefox-browser
           url: "https://xplorehow.in"
 
   # About
