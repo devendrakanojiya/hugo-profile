@@ -126,7 +126,7 @@ params:
     intro: "Hi, my name is"
     title: "Devendra."
     subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly."
+    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
     image: /images/devendra.jpeg
     bottomImage:
       enable: true
@@ -144,7 +144,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: fab fa-ubuntu
+        - icon: fab fa-circle
           url: "https://xplorehow.in"
 
   # About
@@ -304,7 +304,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: CloudBin
+      - title: CodeBin
         content: A paste bin that share code snippet seamlessly across the different Platforms.
         image: /images/projects/cloudbin.png
         featured:
