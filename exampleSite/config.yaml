@@ -24,14 +24,14 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+    #- identifier: blog
+     # name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
     - identifier: gallery
       name: Gallery
-      title: Blog posts
+      title: Gallery
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Devendra Kanojiya"
+  description: A portfolio site of MR.Devendra Kanojiya
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -104,10 +104,10 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/1xscxiNHPIYrkBiBV5bRQGXIoe7KWYfWmRdmjCSslTYE/edit?usp=sharing"
+      url: "https://docs.google.com/document/d/1xscxiNHPIYrkBiBV5bRQGXIoe7KWYfWmRdmjCSslTYE/edit?usp=drive_link"
       download: true
       newPage: false
     socialLinks:
@@ -144,8 +144,8 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-house
+          url: "https://xplorehow.in"
 
   # About
   about:
@@ -166,6 +166,8 @@ params:
         - "React-Native"
         - "MongoDB"
         - "Django"
+        - "Python"
+        - "Azure"
 
   # Experience
   experience:
@@ -307,7 +309,7 @@ params:
         image: /images/projects/profile.png
         featured:
           name: Live
-          link: https://cloudbin-92iq.onrender.com
+          link: https://codebin-92iq.onrender.com
         badges:
           - "Django"
           - "MongoDB"
