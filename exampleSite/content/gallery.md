@@ -5,7 +5,7 @@ draft: false
 description: "Hello World! :earth_asia:"
 layout: "gallery"
 galleryImages:
- - src: https://drive.google.com/file/d/164xTSrxx5BuvTQMvX1VDcsetHsYwhvsk/view
+ - src: /images/gallery_img/cloudbin.png
  - src: https://drive.google.com/file/d/10a3BNG3ensZ05VHWkTFx441ab7hgKLaw/view
  - src: https://drive.google.com/file/d/13tftdP6R5sWBU5YqEKPKOEDoLY_gNwr3/view
  - src: https://drive.google.com/file/d/1mTftKCWx8mAzBDwxO5V-6F2R0dYsbB7W/view
