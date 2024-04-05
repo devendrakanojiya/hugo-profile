@@ -1,7 +1,7 @@
 baseURL: "https://devendrakanojiya.netlify.app"
 languageCode: "en-us"
 title: "Portfolio"
-theme: hugo-profile
+theme: portfolio
 
 outputs:
   home:
@@ -144,14 +144,14 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: fa-solid fa-globe
+        - icon: fab fa-globe
           url: "https://xplorehow.in"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I am a techsavvy with a passion for web development, deployment and Linux server Admin. I have a background in computer science, and I have a strong interest in the intersection of technology and art. I am currently looking for an full fleged job. 
 
@@ -306,7 +306,7 @@ params:
     items:
       - title: CloudBin
         content: A paste bin that share code snippet seamlessly across the different Platforms.
-        image: /images/projects/profile.png
+        image: /images/projects/cloudbin.png
         featured:
           name: Live
           link: https://codebin-92iq.onrender.com
@@ -320,7 +320,7 @@ params:
 
       - title: XploreHow
         content: A blog site developed in Wordpress.
-        image: /images/projects/converter.jpg
+        image: /images/projects/xplorehow.png
         featured:
           name: Source
           link: https://github.com/xplorehow
@@ -335,7 +335,7 @@ params:
 
       - title: VR Transport WebSite
         content: A clean and modern website for Transportation Business.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/vr-transport.png
         featured:
           name: Live
           link: https://rahulphadtare.github.io/rahulphadtare/
