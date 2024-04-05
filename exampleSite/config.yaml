@@ -352,11 +352,11 @@ params:
     content: My inbox is always open. Whether you have a query or just want to say hi.
     btnName: Mail me
     btnLink: mailto:devendrakanojiya@hotmail.com
-     formspree:
-       enable: true # `contact.email` value will be ignored
+     #formspree:
+       #enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-       emailCaption: "Enter your email address"
-       messageCaption: "Enter your message here"
+       #emailCaption: "Enter your email address"
+       #messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
