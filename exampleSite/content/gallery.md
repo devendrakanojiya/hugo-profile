@@ -1,14 +1,14 @@
 ---
-title: "Image Gallery"
+title: "Project Gallery"
 date: 2022-06-25T18:35:46+05:30
 draft: false
-description: "My gallery :earth_asia:"
+description: "Hello World! :earth_asia:"
 layout: "gallery"
 galleryImages:
- - src: https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg
- - src: https://img.etimg.com/thumb/msid-68721417,width-650,imgsize-1016106,,resizemode-4,quality-100/nature1_gettyimages.jpg
- - src: https://thumbs.dreamstime.com/b/team-ants-council-collective-decision-work-17037482.jpg
- - src: https://thumbs.dreamstime.com/b/summer-day-smiling-women-relax-wearing-red-dress-fashion-standing-wooden-bridge-over-sea-blue-sky-background-summer-107411998.jpg
- - src: https://thumbs.dreamstime.com/b/young-woman-playing-dog-pet-beach-sunrise-sunset-girl-dog-having-fun-seasid-seaside-cute-neglected-stay-66480218.jpg
- - src: https://thumbs.dreamstime.com/b/funny-picture-taken-sunrise-frozen-lake-perspective-rider-retro-bicycle-sunrise-personal-211066044.jpg 
+ - src: https://drive.google.com/file/d/164xTSrxx5BuvTQMvX1VDcsetHsYwhvsk/view?usp=drive_link
+ - src: https://drive.google.com/file/d/10a3BNG3ensZ05VHWkTFx441ab7hgKLaw/view?usp=drive_link
+ - src: https://drive.google.com/file/d/13tftdP6R5sWBU5YqEKPKOEDoLY_gNwr3/view?usp=drive_link
+ - src: https://drive.google.com/file/d/1mTftKCWx8mAzBDwxO5V-6F2R0dYsbB7W/view?usp=drive_link
+ - src: https://drive.google.com/file/d/1mgZTiKlV4dVjj1YNtsMxrUedBXu3Wj1R/view?usp=drive_link
+ - src: https://drive.google.com/file/d/1OjhXBx1Td_ewY8HFs81LOExZ3mXznMfK/view?usp=drive_link 
 ---
