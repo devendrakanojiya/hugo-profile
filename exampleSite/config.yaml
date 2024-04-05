@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://devendrakanojiya.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -56,7 +56,7 @@ params:
   title: "Devendra Kanojiya"
   description: A portfolio site of MR.Devendra Kanojiya
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/static/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -104,7 +104,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/static/images/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: true
@@ -127,7 +127,7 @@ params:
     title: "Devendra."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly."
-    image: /images/hero.svg
+    image: /images/devendra.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -144,7 +144,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: fab fa-house
+        - icon: fa-solid fa-globe
           url: "https://xplorehow.in"
 
   # About
