@@ -124,9 +124,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
+    title: "Devendra."
     subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -134,15 +134,15 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://docs.google.com/document/d/1xscxiNHPIYrkBiBV5bRQGXIoe7KWYfWmRdmjCSslTYE/edit?usp=sharing"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/devendrakanojiya
         - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://twitter.com/devenkanojiya
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -277,7 +277,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -302,77 +302,75 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: CloudBin
+        content: A paste bin that share code snippet seamlessly across the different Platforms.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Live
+          link: https://cloudbin-92iq.onrender.com
         badges:
           - "Django"
-          - "Bootstrap"
+          - "MongoDB"
+          - "BootStrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/devendrakanojiya/CodeBin
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: XploreHow
+        content: A blog site developed in Wordpress.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Source
+          link: https://github.com/xplorehow
+        badges:
+          - "Digital Ocean"
+          - "SEO"
+          - "Analytics"
+          - "Linux"
+        #links:
+          #- icon: fab fa-github
+           # url: https://github.com/gurusabarish/converter
+
+      - title: VR Transport WebSite
+        content: A clean and modern website for Transportation Business.
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Live
+          link: https://rahulphadtare.github.io/rahulphadtare/
         badges:
-          - "Hugo"
+          - "Animation"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/rahulphadtare/rahulphadtare
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a query or just want to say hi.
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
+    btnLink: mailto:devendrakanojiya@hotmail.com
+     formspree:
+       enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+       emailCaption: "Enter your email address"
+       messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/devendrakanojiya
+      linkedin: https://linkedin.com/in/devendrakanojiya
+      twitter: https://twitter.com/devenkanojiya
+      instagram: https://instagram.com/devendrakanojiyaa
+      facebook: https://facebook.com/devendrakanojiya
 
   # List pages like blogs and posts
   listPages:
