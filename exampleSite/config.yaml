@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://github.com/devendrakanojiya/demotivation/blob/main/devendra_resume.pdf"
+      url: "https://devendrakanojiya.github.io/devendra_resume.pdf"
       download: true
       newPage: false
     socialLinks:
