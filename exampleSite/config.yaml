@@ -348,19 +348,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/rahulphadtare/rahulphadtare
             
-      - title: Playground Site
-        content: A playground site to to practice improve skill. 
-        image: /images/projects/devendrakanojiya.png
+      - title: CloudBin 
+        content: A CLI pastebin same as codebin but for servers 
+        image: /images/projects/cloudbin-cli.png
         featured:
           name: Live
-          link: https://devendrakanojiya.github.io/
+          link: https://github.com/devendrakanojiya.github.io/cloudbin
         badges:
-          - "Javascript"
+          - "Linux"
           - "Bootstrap"
-          - "CSS"
+          - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/devendrakanojiya/devendrakanojiya.github.io
+            url: https://github.com/devendrakanojiya/cloudbin      
 
       - title: Android Custom Rom 
         content: A android rom build from sourcecode
@@ -375,20 +375,20 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/device_xiaomi_sakura
-
-      - title: CloudBin 
-        content: A CLI pastebin same as codebin but for servers 
-        image: /images/projects/cloudbin-cli.png
+            
+      - title: Playground Site
+        content: A playground site to to practice improve skill. 
+        image: /images/projects/gallery_img/devendrakanojiya.png
         featured:
           name: Live
-          link: https://github.com/devendrakanojiya.github.io/cloudbin
+          link: https://devendrakanojiya.github.io/
         badges:
-          - "Linux"
-          - "Bootstrap"
           - "Javascript"
+          - "Bootstrap"
+          - "CSS"
         links:
           - icon: fab fa-github
-            url: https://github.com/devendrakanojiya/cloudbin
+            url: https://github.com/devendrakanojiya/devendrakanojiya.github.io            
 
   #Contact
   contact:
