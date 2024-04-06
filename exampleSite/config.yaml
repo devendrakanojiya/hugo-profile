@@ -356,8 +356,8 @@ params:
           link: https://github.com/devendrakanojiya.github.io/cloudbin
         badges:
           - "Linux"
-          - "Bootstrap"
-          - "Javascript"
+          - "TUI"
+          - "Python"
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/cloudbin      
@@ -370,15 +370,16 @@ params:
           link: https://derpfest.org
         badges:
           - "Linux"
-          - "Bootstrap"
-          - "Javascript"
+          - "Cloud Computing"
+          - "Bash"
+          - "Automation"
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/device_xiaomi_sakura
             
       - title: Playground Site
         content: A playground site to to practice improve skill. 
-        image: /images/projects/gallery_img/devendrakanojiya.png
+        image: /images/projects/devendrakanojiya.png
         featured:
           name: Live
           link: https://devendrakanojiya.github.io/
