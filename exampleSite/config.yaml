@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1DJFDqGgbmgH3ZCjyZqtjZx4X4wVkHl4B/view?usp=drive_link"
+      url: "https://github.com/devendrakanojiya/demotivation/devendra_resume.pdf"
       download: true
       newPage: false
     socialLinks:
