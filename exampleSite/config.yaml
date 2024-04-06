@@ -379,7 +379,7 @@ params:
             
       - title: Playground Site
         content: A playground site to to practice improve skill. 
-        image: /images/projects/devendrakanojiya.png
+        image: /images/projects/play.png
         featured:
           name: Live
           link: https://devendrakanojiya.github.io/
