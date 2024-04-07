@@ -354,7 +354,7 @@ params:
         image: /images/projects/paranoid.png
         featured:
           name: Live
-          link: https://www.pling.me/p/https%3A%2F%2Fparanoidandroid.co%2Fdownloads%2Fsakura
+          link: https://www.pling.me/p/1392994
         badges:
           - "Linux"
           - "Cloud Computing"
