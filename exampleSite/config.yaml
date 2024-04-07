@@ -144,7 +144,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: 
+        - icon: /images/firefox.png
           url: "https://devendrakanojiya.github.io"
 
   # About
