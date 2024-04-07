@@ -144,8 +144,8 @@ params:
         - icon: fab fa-x-twitter
           url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: fab fa-firefox-browser
-          url: "https://xplorehow.in"
+        - icon: 
+          url: "https://devendrakanojiya.github.io"
 
   # About
   about:
@@ -318,13 +318,28 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/CodeBin
+            
+      - title: Tap2Chat
+        content: A IOS & Android mobile phone app to open chat using WhatsApp API.
+        image: /images/projects/expo.png
+        featured:
+          name: live
+          link: https://snack.expo.dev/@devendrakanojiya/clicktochat
+        badges:
+          - "React-Native"
+          - "JSX"
+          - "Expo"
+          - "App deployment"
+        links:
+          - icon: fab fa-github
+            url: https://expo.dev/accounts/devendrakanojiya/snacks                
 
       - title: XploreHow
-        content: A blog site developed in Wordpress.
+        content: A blog site developed in Wordpress. (Deprecated)
         image: /images/projects/xplorehow.png
         featured:
-          name: Source
-          link: https://github.com/xplorehow
+          name: live
+          link: https://devendrakanojiya.github.io/devendarkanojiya
         badges:
           - "Digital Ocean"
           - "SEO"
@@ -332,8 +347,23 @@ params:
           - "Linux"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
+            url: https://github.com/devendrakanojiya/devendarkanojiya
+            
+      - title: Android Custom Rom 
+        content: A paranoid OS android rom build from source
+        image: /images/projects/paranoid.png
+        featured:
+          name: Live
+          link: https://www.pling.me/p/https%3A%2F%2Fparanoidandroid.co%2Fdownloads%2Fsakura
+        badges:
+          - "Linux"
+          - "Cloud Computing"
+          - "Bash"
+          - "Automation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/devendrakanojiya/android_frameworks_base
+            
       - title: VR Transport WebSite
         content: A clean and modern website for Transportation Business.
         image: /images/projects/vr-transport.png
@@ -361,21 +391,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/cloudbin      
-
-      - title: Android Custom Rom 
-        content: A android rom build from sourcecode
-        image: /images/projects/derpfest.png
-        featured:
-          name: Live
-          link: https://derpfest.org
-        badges:
-          - "Linux"
-          - "Cloud Computing"
-          - "Bash"
-          - "Automation"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/devendrakanojiya/device_xiaomi_sakura
             
       - title: Playground Site
         content: A playground site to to practice improve skill. 
