@@ -127,7 +127,7 @@ params:
     title: "Devendra."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
-    image: /images/devendra.jpeg
+    image: /images/sukuna_domain.mp4
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
