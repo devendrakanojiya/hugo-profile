@@ -153,7 +153,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a techsavvy with a passion for web development, deployment and Linux server Admin. I have a background in computer science, and I have a strong interest in the intersection of technology and art. I am currently looking for an full fleged job. 
+      I am a techsavvy with a passion for web as well as app development, deployment and Linux server Admin. I have a background in computer science, and I have a strong interest in the intersection of technology and art.
 
       I would like to work on technology that benifits society.
     skills:
@@ -431,7 +431,7 @@ params:
       linkedin: https://linkedin.com/in/devendrakanojiya
       twitter: https://twitter.com/devenkanojiya
       instagram: https://instagram.com/devendrakanojiyaa
-      facebook: https://facebook.com/devendrakanojiya
+      facebook: https://facebook.com/devendrakanojiyaa
 
   # List pages like blogs and posts
   listPages:
