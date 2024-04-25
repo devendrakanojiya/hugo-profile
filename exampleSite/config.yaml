@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Devendra."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
+    subtitle: "I tells computer to do things, sometimes they do listen"
+    content: "A passionate developer. I tend to make use of modern technologies to build softwares that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
     image: /images/sukuna_domain.gif
     bottomImage:
       enable: true
@@ -153,9 +153,9 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a techsavvy with a passion for web as well as app development, deployment and Linux server Admin. I have a background in computer science, and I have a strong interest in the intersection of technology and art.
+     I am a tech-savvy with a passion for development. The seeds for my interest in technology sown at the age of 10, when I received my first Android phone and decided to built my career in DevOps when I tried hands on my very first GNU/linux distro fedora at 14. Since then I came across IRC communities and other nerd clubs, where I learned with them and did my hands dirty on various technologies. I do have a strong believe in the intersection of technology and art.
 
-      I would like to work on technology that benifits society.
+      -I would like to work on technology that benifits society.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
