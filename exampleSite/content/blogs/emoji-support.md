@@ -97,4 +97,4 @@ Moral of the story is:
 
 You are as good as you market yourself.
 
-![](https://picsum.photos/1920/1080?blur=3)
+![](https://picsum.photos/1920/1080?blur=10)
