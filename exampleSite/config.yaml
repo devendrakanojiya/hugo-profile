@@ -1,7 +1,7 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://devendrakanojiya.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
-theme: hugo-profile
+title: "Portfolio"
+theme: portfolio
 
 outputs:
   home:
@@ -24,14 +24,14 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+    #- identifier: blog
+     # name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
     - identifier: gallery
       name: Gallery
-      title: Blog posts
+      title: Gallery
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Devendra Kanojiya"
+  description: A portfolio site of MR.Devendra Kanojiya
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -67,7 +67,7 @@ params:
   # This requires your images to be uploaded + hosted on Cloudinary
   # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-
+  
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
 
@@ -85,37 +85,33 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
   # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
 
   #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/fav.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
       showOnScrollUp : true
-    enableSeparator: false
     menus:
       disableAbout: false
       disableExperience: false
@@ -128,52 +124,54 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    title: "Devendra."
+    subtitle: "I tells computer to do things, sometimes they do listen"
+    content: "A passionate developer. I tend to make use of modern technologies to build softwares that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
+    image: /images/sukuna_domain.gif
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://devendrakanojiya.github.io/devendra_resume.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/devendrakanojiya
         - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://twitter.com/devenkanojiya
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: /images/firefox.png
+          url: "https://devendrakanojiya.github.io"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+     I am a tech-savvy with a passion for development. The seeds for my interest in technology sown at the age of 10, when I received my first Android phone and decided to built my career in DevOps when I tried hands on my very first GNU/linux distro fedora at 14. Since then I came across IRC communities and other nerd clubs, where I learned with them and did my hands dirty on various technologies. I do have a strong believe in the intersection of technology and art.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      -I would like to work on technologies that benifits society.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few tech-jargons I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
+        - "Linux"
+        - "Docker"
         - "Express"
+        - "React-Native"
+        - "MongoDB"
+        - "Django"
+        - "Python"
+        - "Azure & AWS"
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -238,7 +236,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -250,7 +248,7 @@ params:
         GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Science in Computer Science"
         school:
@@ -264,7 +262,7 @@ params:
           - Face mask detection using a single convolutional neural network.
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
           enable: true
@@ -279,9 +277,10 @@ params:
           enable: true
           url: "https://example.com"
 
+
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -306,64 +305,119 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: CodeBin
+        content: A paste bin that share code snippet seamlessly across the different Platforms.
+        image: /images/projects/cloudbin.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Live
+          link: https://codebin-92iq.onrender.com
         badges:
           - "Django"
-          - "Bootstrap"
+          - "MongoDB"
+          - "BootStrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+            url: https://github.com/devendrakanojiya/CodeBin
+            
+      - title: Tap2Chat
+        content: An React Native and React mobile app and web app to open WhatsApp Chats without saving Ph. No. in contact list.
+        image: /images/projects/expo.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: live
+          link: https://snack.expo.dev/@devendrakanojiya/clicktochat
         badges:
-          - "Hugo"
+          - "React-Native"
+          - "JSX"
+          - "Expo"
+          - "App deployment"
+        links:
+          - icon: fab fa-github
+            url: https://expo.dev/accounts/devendrakanojiya/snacks                
+
+      - title: XploreHow
+        content: A blog site previously developed in Wordpress currently React based deployment is in progress.
+        image: /images/projects/xplorehow.png
+        featured:
+          name: live
+          link: https://devendrakanojiya.github.io/devendarkanojiya
+        badges:
+          - "Digital Ocean"
+          - "SEO"
+          - "Analytics"
+          - "Linux"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/devendrakanojiya/devendarkanojiya
+            
+      - title: Android Custom Rom 
+        content: A paranoid OS android rom build from source
+        image: /images/projects/paranoid.png
+        featured:
+          name: Live
+          link: https://www.pling.me/p/1392994
+        badges:
+          - "Linux"
+          - "Cloud Computing"
+          - "Bash"
+          - "Automation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/devendrakanojiya/android_frameworks_base
+            
+      - title: VR Transport WebSite
+        content: A clean and modern website for Transportation Business.
+        image: /images/projects/vr-transport.png
+        featured:
+          name: Live
+          link: https://rahulphadtare.github.io/rahulphadtare/
+        badges:
+          - "Animation"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/rahulphadtare/rahulphadtare
+            
+      - title: CloudBin 
+        content: A CLI pastebin same as codebin but for servers 
+        image: /images/projects/cloudbin-cli.png
+        featured:
+          name: Live
+          link: https://github.com/devendrakanojiya.github.io/cloudbin
+        badges:
+          - "Linux"
+          - "TUI"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/devendrakanojiya/cloudbin      
+            
+      - title: Playground Site
+        content: A playground site to to practice improve skill. 
+        image: /images/projects/play.png
+        featured:
+          name: Live
+          link: https://devendrakanojiya.github.io/
+        badges:
+          - "Javascript"
+          - "Bootstrap"
+          - "CSS"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/devendrakanojiya/devendrakanojiya.github.io            
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a query or just want to say hi.
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
+    btnLink: mailto:devendrakanojiya@hotmail.com
+     #formspree:
+       #enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+       #emailCaption: "Enter your email address"
+       #messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
@@ -373,11 +427,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/devendrakanojiya
+      linkedin: https://linkedin.com/in/devendrakanojiya
+      twitter: https://twitter.com/devenkanojiya
+      instagram: https://instagram.com/devendrakanojiyaa
+      facebook: https://facebook.com/devendrakanojiyaa
 
   # List pages like blogs and posts
   listPages:
@@ -385,14 +439,11 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
     readTime:
       enable: true
       content: "min read"
     scrollprogress:
       enable: true
-    tags:
-      openInNewTab: true
 
   # For translations
   terms:
