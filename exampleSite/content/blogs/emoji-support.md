@@ -2,12 +2,12 @@
 title: "Effective CV"
 date: 2021-04-03T22:53:58+05:30
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
+github_link: "https://github.com/celikkoseoglu"
 author: "Celikk"
 tags:
-  - Emoji support
-  - Sample
-  - example
+  - CV
+  - Productivity
+  - Resume
 image: /images/post.jpg
 description: ""
 toc: 
@@ -18,7 +18,6 @@ toc:
 
 #### Some companies receive hundreds of applications per day. How can you increase the chances of your CV getting noticed?
 
-######July 17, 2020 - 10 min read
 
 ![](https://picsum.photos/1920/1080?random=1)
 
@@ -95,8 +94,7 @@ If you execute all of these steps correctly, then you're very likely to get invi
 
 Moral of the story is:
 
-####Use your CV as an advertisement, not a biography.
 
 You are as good as you market yourself.
 
-![](https://picsum.photos/1920/1080?random=2)
+![](https://picsum.photos/1920/1080?blur=3)
