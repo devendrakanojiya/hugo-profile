@@ -152,9 +152,13 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: I am a tech enthusiast. My interest in technology began at the age of 10 when I received my first Android Phone (Scamsung S3), and I decided to pursue a career in Software Engineering after I tried hands on my very first GNU/Linux distro (Fedora). Since then, I’ve engaged with Geek and IRC communities, where I learned and did my hands dirty on various technologies.  I do have a strong believe in the intersection of technology and art.
-     
-      -I would like to work on things that benifits society.
+    content: I am a tech enthusiast. My interest in technology began at the age of 10.
+             When I received my first Android Phone (Scamsung S3) and I decided to pursue a career in Software Engineering
+             after I tried hands on my very first GNU/Linux distro (Fedora). Since then, I’ve engaged with Geek and IRC communities,
+             where I learned and did my hands dirty on various technologies.
+             I do have a strong believe in the intersection of technology and art.                                               
+    
+             -I would like to work on things that benifits society.
     skills:
       enable: true
       title: "Here are a few tech-jargons I've been working with recently:"
@@ -305,7 +309,7 @@ params:
     # title: "Custom Name"
     items:
       - title: CodeBin
-        content: Developed an optimized cross-platform web application for college students to share and access code snippets over cloud,
+        content: Developed an optimized cross-platform web application for college students to share and access code snippets over cloud.
         image: /images/projects/cloudbin.png
         featured:
           name: Live
@@ -319,7 +323,9 @@ params:
             url: https://github.com/devendrakanojiya/CodeBin
             
       - title: Tap2Chat
-        content: Created a React Native Mobile App that addresses the common issue of needing to save phone numbers to open WhatsApp chats, enabling users to initiate conversations without cluttering their contact lists.
+        content: Created a React Native Mobile App that addresses the common issue of needing to save phone numbers to open WhatsApp chats.
+        
+                enabling users to initiate conversations without cluttering their contact lists.
         image: /images/projects/expo.png
         featured:
           name: live
@@ -334,7 +340,10 @@ params:
             url: https://expo.dev/accounts/devendrakanojiya/snacks                
 
       - title: XploreHow
-        content: Developed and maintained a WordPress blog site with reverse proxy functionality. Hosted on Digital Ocean and utilized Cloudflare for DNS and security measures. Served on Linux Server and used tools like CDN, Cron Job Automation, LiteSpeed Cache, Apache, and Nginx. Achieved a performance score of 98% and an SEO score of 99% as measured by Google PageSpeed
+        content: A blog site hosted on Linux Server and utilized using
+                 Cloudflare DNS, CDN, Cron-Job, LS Cache, Apache. 
+                
+                 Performance score 98% and SEO score 99% by Google PageSpeed
 
         image: /images/projects/xplorehow.png
         featured:
@@ -343,14 +352,15 @@ params:
         badges:
           - "Digital Ocean"
           - "SEO"
-          - "Analytics"
+          - "Reverse Proxy"
           - "Linux"
+          - "WordPress"
         links:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/devendarkanojiya
             
       - title: Android Custom Rom 
-        content: A paranoid OS android rom build from source
+        content: A paranoid OS custom android rom build from source.
         image: /images/projects/paranoid.png
         featured:
           name: Live
@@ -365,7 +375,9 @@ params:
             url: https://github.com/devendrakanojiya/android_frameworks_base
             
       - title: NewsBuzz
-        content: Collaborated in a team to develop a full-stack news web-app using Django and a SQL database. Contributed to UI/UX design and development, optimized overall performance by employing both white-box and black-box testing approaches
+        content: Collaborated in a team to develop a full-stack news web app using Django and a SQL database.
+        
+                 Contributed to UI/UX design and development, optimized overall performance by employing both white-box and black-box testing approaches
         image: /images/projects/newsbuzz.jpg
         featured:
           name: Live
@@ -379,7 +391,9 @@ params:
             url: https://devendrakanojiya.github.io/coming-soon/
             
       - title: CloudBin 
-        content: A command-line utility that allows users to save and share code seamlessly across Web and Servers. This innovative pastebin solution enhances collaboration and accessibility for developers
+        content: A command-line utility that allows users to save and share code seamlessly across Web and Servers.
+        
+                 This innovative pastebin solution enhances collaboration and accessibility for developers
         image: /images/projects/cloudbin-cli.png
         featured:
           name: Live
