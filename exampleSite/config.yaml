@@ -166,7 +166,7 @@ params:
         - "Linux"
         - "Docker"
         - "Express"
-        - "React-Native"
+        - "React"
         - "MongoDB"
         - "Django"
         - "Python"
@@ -406,8 +406,8 @@ params:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/cloudbin      
             
-      - title: Playground Site
-        content: A playground site to to practice improve skill. 
+      - title: Playground
+        content: A digital playground. 
         image: /images/projects/play.png
         featured:
           name: Live
