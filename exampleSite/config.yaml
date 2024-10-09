@@ -125,10 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Devendra"
-    subtitle: "I tells computer to do things, sometime they do listen"
-    content: "I tend to make use of modern technologies to build softwares that looks great, responsive, and functions correctly."
-    
-               "Click on below button to download my resume in PDF format"
+    subtitle: "I tells computer to do things, sometimes they do listen"
+    content: "A passionate developer. I tend to make use of modern technologies to build softwares that looks great, responsive, and functions correctly. Click on below button to download my resume in PDF format"
     image: /images/sukuna_domain.gif
     bottomImage:
       enable: true
@@ -154,17 +152,10 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: |
-             I am a tech enthusiast. My interest in technology began at the age of 10.
-             
-              When I received my first Android Phone (Scamsung S3) and I decided to pursue a career in Software Engineering
-             after I tried hands on my very first GNU/Linux distro (Fedora).
-             
-               Since then, I’ve engaged with Geek and IRC communities,
-              where I learned and did my hands dirty on various technologies.
-             I do have a strong believe in the intersection of technology and art.     
-             
-               -I would like to work on things that benifits society.
+    content: |-
+     I am a tech enthusiast. My interest in technology began at the age of 10. When I received my first Android Phone (Scamsung S3) and I decided to pursue a career in Software Engineering after I tried hands on my very first GNU/Linux distro (Fedora). Since then I came across IRC communities and other geek clubs, where I learned with them and did my hands dirty on various technologies. I do have a strong believe in the intersection of technology and art.
+
+      -I would like to work on technologies that benifits society.
     skills:
       enable: true
       title: "Here are a few tech-jargons I've been working with recently:"
@@ -315,7 +306,7 @@ params:
     # title: "Custom Name"
     items:
       - title: CodeBin
-        content:" Developed an optimized cross-platform web application for college students to share and access code snippets over cloud."
+        content: A paste bin that share code snippet seamlessly across the different Platforms.
         image: /images/projects/cloudbin.png
         featured:
           name: Live
@@ -343,9 +334,9 @@ params:
           - "App deployment"
         links:
           - icon: fab fa-github
-            url: https://expo.dev/accounts/devendrakanojiya/snacks                
+            url: https://expo.dev/accounts/devendrakanojiya/snacks                 
 
-      - title: XploreHow
+       - title: XploreHow
         content: |
                  A blog site hosted on Linux Server and utilized using
                  Cloudflare DNS, CDN, Cron-Job, LS Cache, Apache. 
@@ -367,7 +358,7 @@ params:
             url: https://github.com/devendrakanojiya/devendarkanojiya
             
       - title: Android Custom Rom 
-        content: "A paranoid OS custom android rom build from source."
+        content: A paranoid custom android rom build from source
         image: /images/projects/paranoid.png
         featured:
           name: Live
@@ -381,11 +372,8 @@ params:
           - icon: fab fa-github
             url: https://github.com/devendrakanojiya/android_frameworks_base
             
-      - title: NewsBuzz
-        content: |
-               Collaborated in a team to develop a full-stack news app using Django and a SQL database.
-               
-                 Contributed to UI/UX design and development, optimized overall performance by employing both white-box and black-box testing approaches
+ - title: NewsBuzz
+        content: Collaborated in a team to develop a full-stack news app using Django and a SQL database. Contributed to UI/UX design and development, optimized overall performance by employing both white-box and black-box testing approaches
         image: /images/projects/newsbuzz.jpg
         featured:
           name: Live
@@ -398,11 +386,8 @@ params:
           - icon: fab fa-github
             url: https://devendrakanojiya.github.io/coming-soon/
             
-      - title: CloudBin 
-        content: | 
-                A command-line utility that allows users to save and share code seamlessly across Web and Servers.
-                
-                  This innovative pastebin solution enhances collaboration and accessibility for developers
+       - title: CloudBin 
+        content: A command-line utility that allows users to save and share code seamlessly across Web and Servers. This innovative pastebin solution enhances collaboration and accessibility for developers
         image: /images/projects/cloudbin-cli.png
         featured:
           name: Live
@@ -413,10 +398,10 @@ params:
           - "Python"
         links:
           - icon: fab fa-github
-            url: https://github.com/devendrakanojiya/cloudbin      
+            url: https://github.com/devendrakanojiya/cloudbin   
             
-      - title: Playground
-        content: "A digital playground." 
+      - title: Playground 
+        content: A digital playground . 
         image: /images/projects/play.png
         featured:
           name: Live
@@ -433,7 +418,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: "My inbox is always open. Whether you have a query or just want to say hi."
+    content: My inbox is always open. Whether you have a query or just want to say hi.
     btnName: Mail me
     btnLink: mailto:devendrakanojiya@hotmail.com
      #formspree:
