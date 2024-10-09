@@ -334,7 +334,12 @@ params:
           - "App deployment"
         links:
           - icon: fab fa-github
-            url: https://expo.dev/accounts/devendrakanojiya/snacks                 
+            url: https://expo.dev/accounts/snacks                 
+
+
+
+
+
 
        - title: XploreHow
         content: |
