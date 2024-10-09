@@ -30,7 +30,7 @@ Menus:
       url: /blogs
       weight: 1
     #- identifier: gallery
-     # name: Gallery
+     # name: Gallery 
       #title: Gallery
       #url: /gallery
       #weight: 2
