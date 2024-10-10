@@ -152,10 +152,10 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: |-
+    content: 
      I am a tech enthusiast. My interest in technology began at the age of 10. When I received my first Android Phone (Scamsung S3) and I decided to pursue a career in Software Engineering after I tried hands on my very first GNU/Linux distro (Fedora). Since then I came across IRC communities and other geek clubs, where I learned with them and did my hands dirty on various technologies. I do have a strong believe in the intersection of technology and art.
 
-      -I would like to work on technologies that benifits society.
+      I would like to work on technologies that benifits society.
     skills:
       enable: true
       title: "Here are a few tech-jargons I've been working with recently:"
