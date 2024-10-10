@@ -320,9 +320,7 @@ params:
             url: https://github.com/devendrakanojiya/CodeBin
             
       - title: Tap2Chat
-        content: |
-               Created a React Native Mobile App that addresses the common issue of needing to save phone numbers to open WhatsApp chats.
-                 enabling users to initiate conversations without cluttering their contact lists.
+        content: Created a React Native Mobile App that addresses the common issue of needing to save phone numbers to open WhatsApp chats. enabling users to initiate conversations without cluttering their contact lists.
         image: /images/projects/expo.png
         featured:
           name: live
