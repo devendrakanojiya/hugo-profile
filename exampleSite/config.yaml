@@ -30,7 +30,7 @@ Menus:
       url: /blogs
       weight: 1
     #- identifier: gallery
-     # name: Gallery 
+     # name: Gallery
       #title: Gallery
       #url: /gallery
       #weight: 2
@@ -334,12 +334,7 @@ params:
           - "App deployment"
         links:
           - icon: fab fa-github
-            url: https://expo.dev/accounts/snacks                 
-
-
-
-
-
+            url: https://expo.dev/accounts/devendrakanojiya/snacks                 
 
        - title: XploreHow
         content: |
@@ -379,7 +374,7 @@ params:
             
  - title: NewsBuzz
         content: Collaborated in a team to develop a full-stack news app using Django and a SQL database. Contributed to UI/UX design and development, optimized overall performance by employing both white-box and black-box testing approaches
-        image: /images/projects/newsbuzz.png
+        image: /images/projects/newsbuzz.jpg
         featured:
           name: Live
           link: https://devendrakanojiya.github.io/coming-soon/
